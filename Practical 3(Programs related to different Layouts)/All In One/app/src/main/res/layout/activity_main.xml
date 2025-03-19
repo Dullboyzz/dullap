@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_700"
+        app:title="Choose Layout"
+        app:titleTextColor="@android:color/white"/>
+
+    <!-- Layout Buttons -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCoordinate"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="Coordinate Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLinear"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="Linear Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRelative"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="Relative Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTable"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="Table Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFrame"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="Frame Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnListView"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="List View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGridView"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="Grid View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

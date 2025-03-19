@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:titleTextColor="@android:color/white"
+        app:title="Android Services &amp; Receivers"
+        app:titleTextColor="@color/white"/>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnStartService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Service"
+            android:backgroundTint="@color/teal_700"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnShowNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Notification"
+            android:backgroundTint="@color/teal_700"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnSendBroadcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Broadcast"
+            android:backgroundTint="@color/teal_700"
+            style="@style/Widget.MaterialComponents.Button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

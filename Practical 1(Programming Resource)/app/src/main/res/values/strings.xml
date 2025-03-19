@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string>
+</resources>
