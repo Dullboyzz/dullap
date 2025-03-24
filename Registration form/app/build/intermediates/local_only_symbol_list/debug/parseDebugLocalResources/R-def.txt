@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_500
+color teal_700
+color white
+drawable ic_avatar
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnReset
+id btnSubmit
+id etConfirmPassword
+id etEmail
+id etName
+id etPassword
+id imgProfile
+id radioFemale
+id radioGroupGender
+id radioMale
+id radioOther
+id toolbar
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.RegistartionForm
+style Theme.RegistartionForm
+xml backup_rules
+xml data_extraction_rules

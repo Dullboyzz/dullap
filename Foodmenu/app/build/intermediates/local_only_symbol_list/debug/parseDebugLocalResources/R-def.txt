@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable burger
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable noodles
+drawable pasta
+drawable pizza
+drawable sandwich
+id imgFood
+id recyclerView
+id toolbar
+id tvFoodName
+id tvFoodPrice
+layout activity_main
+layout item_food
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.FoodMenu
+style Theme.FoodMenu
+xml backup_rules
+xml data_extraction_rules
